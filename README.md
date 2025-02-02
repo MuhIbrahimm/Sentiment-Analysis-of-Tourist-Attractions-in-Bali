@@ -36,23 +36,32 @@ Pada proyek ini, dilakukan analisis sentimen terhadap ulasan tempat wisata di Ba
 ## 🚀 How to Use
 1. Clone repositori ini:
    ```bash
-   
+   git clone https://github.com/MuhIbrahimm/Sentiment-Analysis-of-Tourist-Attractions-in-Bali.git
+   cd Sentiment-Analysis-of-Tourist-Attractions-in-Bali
    ```
 2. Install dependencies:
    ```bash
-   
+   pip install -r requirements.txt
    ```
-3. Jalankan skrip pengumpulan data:
+3. Jalankan skrip scrapping data:
    ```bash
-  
+   python [1]gmaps-review-scrapper.py
    ```
-4. Jalankan analisis sentimen:
+3. Jalankan skrip labelling data:
    ```bash
-   
+   python [2]pre_processing.py
    ```
-5. Tampilkan visualisasi:
+3. Jalankan skrip pre-processing data:
    ```bash
-  
+   python [3]labelling-review.py
+   ```
+3. Jalankan skrip analisis sentimen:
+   ```bash
+   python [4]sentiment-analysis-MultinomialNB.py
+   ```
+5. Jalankan skrip visualisasi:
+   ```bash
+   python [5]visualization.py
    ```
 
 ## 📩 Contact
